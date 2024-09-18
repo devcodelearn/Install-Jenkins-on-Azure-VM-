@@ -20,6 +20,8 @@ az vm open-port --port 8080 --resource-group CICDResourceGroup --name CICDVM --p
 
 Step 3: Connect to the VM
 # SSH into the VM
+ssh <your_user_name>@<pulic_ip_address>
+
 ssh cicduser@<public-ip-address>
 
 Step 4: Install Jenkins
